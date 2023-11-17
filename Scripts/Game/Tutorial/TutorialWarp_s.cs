@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class TutorialWarp_s : MonoBehaviour
 {
-    //Player‚É‚Â‚¯‚é
-    //‚±‚ê‚¢‚éH
-    //‚¢‚é
+
     Transform PlayerPos;
     // Start is called before the first frame update
     void Start()

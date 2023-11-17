@@ -7,6 +7,7 @@ public class SampleManager_s : MonoBehaviour
 {
     //enableでモード変更
     //シルエットモード変更　あり　なし
+    //テストシーン用
     Controller_s Controller;
     ColliderGun_s ColliderGun;
     Pickup_s Pickup;

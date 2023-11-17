@@ -3,7 +3,7 @@ using UnityEngine;
 
 public static class FileEx
 {
-    //パス調べるのに使ったやつ
+    //パス調べる用
     public static string FindPath(string name)
     {
         var paths = Directory.GetFiles(Application.dataPath, name, SearchOption.AllDirectories);

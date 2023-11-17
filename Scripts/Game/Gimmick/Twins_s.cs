@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Twins_s : ColliderGun_s
 {
-    //自分のコライダー出したり入れたりするやつ
+    //自分のコライダー出し入れ用
     Transform PlayerTwinsCollTrans;
     GameObject Player;
     // Start is called before the first frame update

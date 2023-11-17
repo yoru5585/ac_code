@@ -69,8 +69,8 @@ public class PCResult_s : MonoBehaviour
                 }
 
                 StartCoroutine(enumerator);
-                NextSceneName = "Stage1Scene"; //ここにステージのScene名
-                MethodName = "StageResult";　//メソッド名
+                NextSceneName = "Stage1Scene"; 
+                MethodName = "StageResult";　
                 SearchFlag = true;
                 break;
             case ">>tower":
@@ -93,9 +93,6 @@ public class PCResult_s : MonoBehaviour
                 break;
             case ">>exit":
                 ExitResult();
-                break;
-            case ">>zangoose":
-                PC.AddText("<<my best partner :)");
                 break;
             case ">>debug":
                 PC.AddText("<<DebugMode ON");
